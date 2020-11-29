@@ -8,15 +8,13 @@
     tools:context=".CrearPersonas">
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/lblTitulo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:fontFamily="casual"
-        android:text="TextView"
+        android:text="@string/titulo_crear_personas"
         android:textAlignment="center"
-        android:textSize="30sp"
-        android:textStyle="bold"
-        tools:text="@string/crear_personas" />
+        android:textSize="24sp"
+        android:textStyle="bold" />
 
     <EditText
         android:id="@+id/txtCedula"
@@ -24,6 +22,7 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:fontFamily="sans-serif"
+        android:hint="@string/cedula"
         android:inputType="number"
         tools:text="@string/cedula" />
 
